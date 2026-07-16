@@ -1,0 +1,137 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+.star-fill {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Fondo */
+.parchment-texture {
+    background-color: #f9faf2;
+    background-image: radial-gradient(#e2e3dc 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+}
+
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f3f4ed;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #154212;
+    border-radius: 4px;
+}
+
+.hero-gradient {
+    background: linear-gradient(to right, rgba(25, 28, 24, 0.9) 0%, rgba(25, 28, 24, 0.4) 50%, transparent 100%);
+}
+
+.page-section {
+    scroll-margin-top: 80px;
+}
+
+#trailer {
+    scroll-margin-top: 100px;
+}
+
+.card-hover-effect:hover {
+    box-shadow: 0 20px 40px -15px rgba(21, 66, 18, 0.15);
+    transform: translateY(-4px);
+}
+
+.bento-stat {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.accordion-active .accordion-content {
+    max-height: 500px;
+}
+
+/* Modal */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+/* Decoración flotante suave */
+@keyframes subtle-float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.float-decoration {
+    animation: subtle-float 6s ease-in-out infinite;
+}
+
+.trailer-placeholder {
+    min-height: 280px;
+}
+
+.nav-link.active-link {
+    color: #154212;
+    border-bottom: 2px solid #ffaac8;
+    padding-bottom: 4px;
+}
+
+#mobile-nav.open {
+    display: flex;
+}
+
+.footer-icon {
+    color: #2D5A27;
+}
+
+.footer-icon:hover {
+    background-color: #2D5A27;
+    color: #ffffff;
+}
+
+.footer-icon:nth-child(2):hover {
+    background-color: #7C3A55;
+}
+
+.footer-link:hover {
+    color: #5D2E46;
+}
